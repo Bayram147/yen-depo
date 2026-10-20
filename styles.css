@@ -1,0 +1,45 @@
+body{
+
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 244, 244);
+    background-image: url(limitless-building-architecture-8k-17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+    min-height: 100vh;
+    opacity: 0.8;
+
+
+}
+.ustmenu{
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    padding: 16px 24px;
+    border-radius: 12px;
+
+
+}
+.ustmenu a {
+    text-decoration: none;
+    font-size: 15;
+    transition: 0.2s ease;
+   color: white;
+
+}
+.ustmenu a:hover {
+color:rgb(182, 185, 185)
+}
+.logo{
+    margin-top: 36px;
+    margin-left: 30px;
+    color: white;
+   
+}
